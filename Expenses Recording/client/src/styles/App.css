@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.expenseForm {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.expenseForm input, .expenseForm button {
+  margin: 0 0.5rem;
+}
+
+.expenseTable table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.expenseTable th, .expenseTable td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.expenseTable th {
+  background-color: lightskyblue;
+}
+
+button {
+  background-color: whitesmoke;
+  margin-right: 0.5rem; 
+  padding: 5px 15px;
+}
+
+.expenseForm .buttonAdd, .expenseTable .buttonSave {
+  background-color: lightgreen;
+}
+
+.expenseTable .buttonDelete {
+  background-color: #ff7276;
+}
+
+.authentication {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.authenticationButton {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+
